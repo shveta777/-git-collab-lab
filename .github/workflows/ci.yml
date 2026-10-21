@@ -1,0 +1,11 @@
+
+name: Hello CI
+
+on: push
+
+jobs:
+  hello:
+    runs-on: windows
+    steps:
+      - name: Print greeting
+        run: echo "Hello CI"
